@@ -164,7 +164,6 @@ def findcode(my_char):
         code = "1111110"
     elif my_char == ". ":
         code = "1111111"
-
     return code
 
 
@@ -172,6 +171,7 @@ for i in range(0, len(my_string)):
     val = findcode(my_string[i])
     bits = bits + len(val)
     my_ans = my_ans + val
+print(str(bits) +"." + my_ans)
 
 
 
