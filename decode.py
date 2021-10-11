@@ -6,10 +6,14 @@
 my_file = open("decode_input.txt")
 my_string = my_file.read()
 result = ""
+
+
+def findcode(my_char):
+    pass
+
+
 for i in range(0, len(my_string)):
     val = findcode(my_string[i])
     my_ans = my_ans + value
 
 
-def findcode(my_char):
-    if my_char == "a":
