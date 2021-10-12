@@ -171,7 +171,12 @@ for i in range(0, len(my_string)):
     val = findcode(my_string[i])
     bits = bits + len(val)
     my_ans = my_ans + val
-print(str(bits) +"." + my_ans)
+
+f = open("decode_input.txt", "w")
+print(str(bits) +"." + my_ans, file=f)
+f.close()
+
+
 
 
 
