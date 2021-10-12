@@ -48,7 +48,7 @@ def findcode(my_char):
         code = "1100111"
     elif my_char == "'":
         code = "1101000"
-    elif my_char == "”":
+    elif my_char == "\"":
         code = "1101001"
     elif my_char == "\n":
         code = "1101010"
