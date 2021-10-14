@@ -39,9 +39,9 @@ def decoding(str, dic):
 
 if __name__ == '__main__':
     # type the input binary file(if in the same directory,just xx.txt, if not, type the whole path.
-    fileInput = input("please enter the path(or name,including format) of the input file: ")
+    fileInput = input("decode_input.txt")
     # output file, way is same as above
-    fileOutput = input("Enter the path of output file: ")
+    fileOutput = input("decode_output.txt")
     f = open(fileInput, "r")
     f2 = open(fileOutput,"w")
     inputString = f.readline()                  # read from the text file
@@ -122,7 +122,7 @@ if __name__ == '__main__':
             pass
 
     f2.write(str3)              # write to output
-
+    print(str3, file=f2) # write to output file
     f.close()
     f2.close()
 

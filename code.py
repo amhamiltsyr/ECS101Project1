@@ -3,13 +3,17 @@
 # returns D.B and prints
 # D = number of bits needed
 # B = binary representation
+
+# open the file to read
 my_file = open("code_input.txt")
 my_string = my_file.read()
+# establish blank variables to fill with solution
 my_ans = ""
 bits = 0
 
 
 def findcode(my_char):
+    # method that finds what binary code corresponds with which character
     if my_char == "a":
         code = "00000"
     elif my_char == "e":
@@ -167,11 +171,13 @@ def findcode(my_char):
     return code
 
 
+# run through each character in the file
 for i in range(0, len(my_string)):
-    val = findcode(my_string[i])
-    bits = bits + len(val)
-    my_ans = my_ans + val
+    val = findcode(my_string[i])  # find binary value
+    bits = bits + len(val)  # increment number of bits
+    my_ans = my_ans + val  # add to final binary value
 
+# add result to decode_input.txt
 f = open("decode_input.txt", "w")
 print(str(bits) +"." + my_ans, file=f)
 f.close()
