@@ -16,6 +16,46 @@ def findcode(my_char):
     # method that finds what binary code corresponds with which character
     if my_char == "a":
         code = "00000"
+    elif my_char == "qu":
+        code = "1101100"
+    elif my_char == "and":
+        code = "1101101"
+    elif my_char == "the":
+        code = "1101110"
+    elif my_char == "sh":
+        code = "1101111"
+    elif my_char == "th":
+        code = "1110000"
+    elif my_char == "an":
+        code = "1110001"
+    elif my_char == "he":
+        code = "1110001"
+    elif my_char == "is":
+        code = "1110011"
+    elif my_char == "er":
+        code = "1110100"
+    elif my_char == "es":
+        code = "1110101"
+    elif my_char == "to":
+        code = "1110110"
+    elif my_char == "in":
+        code = "1110111"
+    elif my_char == "st":
+        code = "1111000"
+    elif my_char == "at":
+        code = "1111001"
+    elif my_char == "ng":
+        code = "1111010"
+    elif my_char == "an":
+        code = "1111011"
+    elif my_char == "or":
+        code = "1111100"
+    elif my_char == "of":
+        code = "1111101"
+    elif my_char == ", ":
+        code = "1111110"
+    elif my_char == ". ":
+        code = "1111111"
     elif my_char == "e":
         code = "00001"
     elif my_char == "i":
@@ -104,14 +144,20 @@ def findcode(my_char):
         code = "1010100"
     elif my_char == "G":
         code = "1010110"
+    elif my_char == "H":
+        code = "1010111"
     elif my_char == "J":
         code = "1011000"
     elif my_char == "K":
         code = "1011001"
     elif my_char == "L":
         code = "1011010"
+    elif my_char == "M":
+        code = "1011011"
     elif my_char == "N":
         code = "1011100"
+    elif my_char == "P":
+        code = "1011101"
     elif my_char == "Q":
         code = "1011110"
     elif my_char == "R":
@@ -128,46 +174,8 @@ def findcode(my_char):
         code = "1100100"
     elif my_char == "Z":
         code = "1100101"
-    elif my_char == "qu":
-        code = "1101100"
-    elif my_char == "and":
-        code = "1101101"
-    elif my_char == "the":
-        code = "1101110"
-    elif my_char == "sh":
-        code = "1101111"
-    elif my_char == "th":
-        code = "1110000"
-    elif my_char == "an":
-        code = "1110001"
-    elif my_char == "he":
-        code = "1110001"
-    elif my_char == "is":
-        code = "1110011"
-    elif my_char == "er":
-        code = "1110100"
-    elif my_char == "es":
-        code = "1110101"
-    elif my_char == "to":
-        code = "1110110"
-    elif my_char == "in":
-        code = "1110111"
-    elif my_char == "st":
-        code = "1111000"
-    elif my_char == "at":
-        code = "1111001"
-    elif my_char == "ng":
-        code = "1111010"
-    elif my_char == "an":
-        code = "1111011"
-    elif my_char == "or":
-        code = "1111100"
-    elif my_char == "of":
-        code = "1111101"
-    elif my_char == ", ":
-        code = "1111110"
-    elif my_char == ". ":
-        code = "1111111"
+
+    print(my_char)
     return code
 
 
