@@ -12,8 +12,9 @@ my_ans = ""
 bits = 0
 
 
+# method that finds what binary code corresponds with which character
+# takes in a character and returns the corresponding binary value
 def findcode(my_char):
-    # method that finds what binary code corresponds with which character
     if my_char == "a":
         code = "00000"
     elif my_char == "qu":
@@ -141,7 +142,7 @@ def findcode(my_char):
     elif my_char == "D":
         code = "1010100"
     elif my_char == "F":
-        code = "1010100"
+        code = "1010101"
     elif my_char == "G":
         code = "1010110"
     elif my_char == "H":
@@ -174,8 +175,6 @@ def findcode(my_char):
         code = "1100100"
     elif my_char == "Z":
         code = "1100101"
-
-    print(my_char)
     return code
 
 
