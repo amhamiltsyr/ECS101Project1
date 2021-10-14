@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
 
     # list for short(binary)
-    list = ['00000', '00001', '00010', '00011', '00100',
+    list1 = ['00000', '00001', '00010', '00011', '00100',
             '00101', '00110', '00111', '01000', '01001', '01010', '01011', '01100', '01101', '01110', '01111']
 
     #list for short(letter)
@@ -122,7 +122,7 @@ if __name__ == '__main__':
             pass
 
     f2.write(str3)              # write to output
-    print(str3, file=f2) # write to output file
+    print(str3, file=f2)  # write to output file
     f.close()
     f2.close()
 
